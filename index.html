@@ -20,13 +20,22 @@
     <!-- ======================= MI HOJA DE ESTILOS ====================== -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- ======================= FIN MI HOJA DE ESTILOS ====================== -->
+<!-- ========================== INICIO IMPORTACION GOOGLE FONTS ========================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+
+
+<!-- ========================== FIN IMPORTACION GOOGLE FONTS ========================= -->
+
   </head>
   <body>
 <H1></H1>
 
 <!-- ================================ INICIO BARRA DE NAVEGACION ======================= -->
-    <header class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
+    <header id="nav" class="navbar navbar-expand-lg --bs-tertiary-bg sticky-top
+">
+      <div class="container-fluid ">
         <a class="navbar-brand" href="#">logo</a>
         <button
           class="navbar-toggler"
@@ -65,25 +74,27 @@
 <main>
 <!-- ================================= INICIO HERO IMG =========================================-->
 
-<img class="hero-img" src="/img/Planta-Tortuguitas-LOG-IN-FARMA.jpg" alt="">
+<img class="hero-img d-flex w-100" src="/img/Planta-Tortuguitas-LOG-IN-FARMA.jpg" alt="">
 
 <!-- ================================= FIN HERO IMG =========================================-->
 
 <!-- ================================= INICIO SERVICIOS ======================================= -->
 
-<section><article><h2>Almacenamiento de carga
+<section class="servicios container text-center"><div class="row"> <article class="col"><h2>Almacenamiento de carga
 </h2> 
   <p>Tratamiento adecuado, para cada una de las variadas gamas de carga. Operaciones de armado de pedidos y picking.</p>
 <img class="img-servicios" src="/img/almacenamiento.png" alt="">
 </article>
-<article><h2>Envio y Distribución</h2>
+<article class="col"><h2>Envio y Distribución</h2>
   <p>Coordinación y notificación de entrega</p><img class="img-servicios" src="/img/entrega.jfif" alt="">
 </article>
-<article><h2>Gestión administrativa de la documentación</h2>
-  <p>Ingreso, procesamiento y rendición de la documentación. Además, contamos con un sistema flexible para la adaptabilidad de interfaces con otros sistemas. Además en la actualidad implementamos el Sistema Móvil Office Truck, información de entrega en tiempo real.</p><img class="img-servicios" src="/img/gestion de documentacion.jfif" alt="">
-  <article><h2>Gestión de Valores</h2><p>Cobranzas y rendición de valores</p><img class="img-servicios" src="/img/contrareembolso.png" alt=""></article>
-  <article><h2>Cámara de frío / Camara de temperatura controlada </h2><p>Recientemente incorparamos a nuestra infraestructura , la Cámara de Frío y Cámara de Temperatura Controlada, para adicionarle valor agregado a nuestros servicios, de acuerdo a los requerimientos de nuestros clientes actuales y potenciales.</p><img class="img-servicios" src="/img/camara de frio.png" alt=""></article>
-</article>
+<article class="col"><h2>Gestión administrativa de la documentación</h2>
+  <p>Ingreso, procesamiento y rendición de la documentación. Además, contamos con un sistema flexible para la adaptabilidad de interfaces con otros sistemas. Además en la actualidad implementamos el Sistema Móvil Office Truck, información de entrega en tiempo real.</p><img class="img-servicios" src="/img/gestion de documentacion.jfif" alt=""></div>
+  
+  <div class="row">
+  <article class="col"><h2>Gestión de Valores</h2><p>Cobranzas y rendición de valores</p><img class="img-servicios" src="/img/contrareembolso.png" alt=""></article>
+  <article class="col"><h2>Cámara de frío / Camara de temperatura controlada </h2><p>Recientemente incorparamos a nuestra infraestructura , la Cámara de Frío y Cámara de Temperatura Controlada, para adicionarle valor agregado a nuestros servicios, de acuerdo a los requerimientos de nuestros clientes actuales y potenciales.</p><img class="img-servicios" src="/img/camara de frio.png" alt=""></article>
+</article></div>
 </section>
 
 <!-- ================================= FIN SERVICIOS ======================================= -->

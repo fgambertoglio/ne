@@ -1,0 +1,63 @@
+#nav {
+  background-color: rgba(133, 126, 83, 0.4078431373);
+}
+#nav a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(182, 169, 169);
+  font-size: 1.5rem;
+}
+#nav a:hover {
+  color: rgba(255, 221, 0, 0.6);
+}
+#nav img {
+  height: 100px;
+}
+#nav li {
+  border-style: solid;
+  border-radius: 20px;
+  border-color: rgb(182, 169, 169);
+  background-color: rgba(1, 13, 177, 0.6941176471);
+}
+#nav li:hover {
+  color: rgba(255, 221, 0, 0.831372549);
+  background-color: rgba(71, 200, 239, 0.368627451);
+}
+#nav button {
+  border-color: rgb(182, 169, 169);
+  border-width: 3px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: -webkit-linear-gradient(-21deg, rgba(43, 139, 222, 0.64), rgb(5, 6, 7));
+  background: linear-gradient(-21deg, rgba(43, 139, 222, 0.736), rgb(5, 6, 7));
+}
+
+.hero-img {
+  display: flex;
+  margin: auto;
+}
+
+.img-servicios {
+  max-width: 100px;
+}
+
+.servicios {
+  background-color: rgba(71, 200, 239, 0.368627451);
+}
+.servicios h2 {
+  color: rgba(255, 221, 0, 0.6);
+  font-family: "Roboto Slab", serif;
+}
+.servicios p {
+  color: rgba(255, 255, 255, 0.71);
+  font-size: 1.1rem;
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+/*# sourceMappingURL=style.css.map */
